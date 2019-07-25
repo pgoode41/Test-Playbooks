@@ -6,3 +6,5 @@
 
     - name: test connection
       ping:
+    - debug:
+      var: result
